@@ -14,6 +14,7 @@
 		B0787D811A6EBC1F009BA0E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0787D801A6EBC1F009BA0E3 /* Images.xcassets */; };
 		B0787D841A6EBC1F009BA0E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0787D821A6EBC1F009BA0E3 /* LaunchScreen.xib */; };
 		B0787D901A6EBC20009BA0E3 /* MobileMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0787D8F1A6EBC20009BA0E3 /* MobileMapperTests.m */; };
+		B0787D9A1A6EBC56009BA0E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0787D991A6EBC56009BA0E3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B0787D891A6EBC20009BA0E3 /* MobileMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0787D8E1A6EBC20009BA0E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0787D8F1A6EBC20009BA0E3 /* MobileMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileMapperTests.m; sourceTree = "<group>"; };
+		B0787D991A6EBC56009BA0E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0787D9A1A6EBC56009BA0E3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		B0787D671A6EBC1F009BA0E3 = {
 			isa = PBXGroup;
 			children = (
+				B0787D991A6EBC56009BA0E3 /* MapKit.framework */,
 				B0787D721A6EBC1F009BA0E3 /* MobileMapper */,
 				B0787D8C1A6EBC20009BA0E3 /* MobileMapperTests */,
 				B0787D711A6EBC1F009BA0E3 /* Products */,
